@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/main.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h2 class="heading text-center text-white ">Weather</h2>
+
+        <form action=""><input class="inputBox bg-light p-2 mb-4 el-input" type="search" placeholder="Countries name"></form>
+        <ul class="smallList"></ul>
+
+
+
+        <div id="intro"></div>
+        <ul class="itemBox">
+            <li class="list">
+                <button onclick="getWeather(40.7833471, 72.3506746)" type="submit" class="list__btn"
+                    data-lat="40.7833471" data-lot="72.3506746">Kashkadarya</button>
+                <button class="list__btn" type="button" data-lat="41.312363" data-long="69.2787079">Tashkent</button>
+                <button class="list__btn" type="button" data-lat="40.9996482" data-long="71.6726238">Namangan</button>
+                <button class="list__btn" type="button" data-lat="40.3764879" data-long="71.7913193">Fergana</button>
+            </li>
+            <li class="list">
+                <button class="list__btn" type="button" data-lat="37.736667" data-long="67.515833">Surkhandarya</button>
+                <button class="list__btn" type="button" data-lat="44.7684916"
+                    data-long="56.1935019">Karakalpakistan</button>
+                <button class="list__btn" type="button" data-lat="40.1331797" data-long="67.8234081">Jizzakh</button>
+                <button class="list__btn" type="button" data-lat="39.6550017" data-long="66.9756954">Samarqand</button>
+            </li>
+            <li class="list">
+                <button class="list__btn" type="button" data-lat="39.7675529" data-long="64.4231326">Bukhara</button>
+                <button class="list__btn" type="button" data-lat="41.5517809" data-long="60.6313161">Khorazm</button>
+                <button class="list__btn" type="button" data-lat="40.1034582" data-long="65.3734221">Navoi</button>
+                <button onclick="" class="list__btn" data-lat="40.7833471" data-lot="72.3506746">Andijan</button>
+            </li>
+        </ul>
+
+
+
+        <template id="post_item_template">
+            <h1 id="name"></h1>
+        </template>
+
+    </div>  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./js/bootstrap.js"></script>
+    <script src="js/main.js"></script>
+
+
+</body>
+
+</html>

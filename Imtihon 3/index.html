@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/main.css">
+    
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container">
+        <h2  class="heading text-center ">Weather</h2>
+        <form class="form" action="">
+            <input class="input bg-light p-2 mb-4 " type="text" placeholder="Countries name">
+        </form>
+        
+        <div id="intro"></div>
+        <ul class=" itme ">
+            <li class=" list">
+             <button onclick="getWeather(40.7833471, 72.3506746)"  type="submit" class="list__btn" data-lat="40.7833471" data-lot="72.3506746">Qashqadaryo</button>
+             <button class="list__btn">Tashkent</button>
+             <button class="list__btn">Namangan</button>
+             <button class="list__btn">Farg'ona</button>
+           
+            </li>
+            <li class="list">
+              <button class="list__btn">Sirdaryo</button>
+              <button class="list__btn">Surhandaryo</button>
+              <button class="list__btn">Jizzah</button>
+              <button class="list__btn">Samarqand</button>
+            </li>
+            <li class="list"> 
+              <button class="list__btn">Buhoro</button>
+              <button class="list__btn">Xorazim</button>
+              <button class="list__btn">Navoiy</button>
+              <button onclick="" class="list__btn"  data-lat="40.7833471" data-lot="72.3506746">Andijon</button>
+            </li>
+        </ul>
+
+        
+
+        <template id="post_item_template">
+           <h1 id="name"></h1>
+        </template>
+      
+    </div>
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     <script src="./js/bootstrap.js"></script>
+    <script src="js/main.js"></script>
+   
+    
+</body>
+</html>
