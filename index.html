@@ -17,31 +17,31 @@
         <h2 class="heading text-center text-white ">Weather</h2>
 
         <form action=""><input class="inputBox bg-light p-2 mb-4 el-input" type="search" placeholder="Countries name"></form>
-        <ul class="smallList"></ul>
+        <ul  class="smallList"></ul>
 
 
 
-        <div id="intro"></div>
+        <div id="intro">
         <ul class="itemBox">
             <li class="list">
                 <button onclick="getWeather(40.7833471, 72.3506746)" type="submit" class="list__btn"
                     data-lat="40.7833471" data-lot="72.3506746">Kashkadarya</button>
-                <button class="list__btn" type="button" data-lat="41.312363" data-long="69.2787079">Tashkent</button>
-                <button class="list__btn" type="button" data-lat="40.9996482" data-long="71.6726238">Namangan</button>
-                <button class="list__btn" type="button" data-lat="40.3764879" data-long="71.7913193">Fergana</button>
+                <button onclick="getWeather(41.312363, 69.2787079)" class="list__btn" type="button" data-lat="41.312363" data-long="69.2787079">Tashkent</button>
+                <button onclick="getWeather(40.9996482, 71.6726238)"class="list__btn"  type="button" data-lat="40.9996482" data-long="71.6726238">Namangan</button>
+                <button onclick="getWeather(40.3764879, 71.7913193)" class="list__btn" type="button" data-lat="40.3764879" data-long="71.7913193">Fergana</button>
             </li>
             <li class="list">
-                <button class="list__btn" type="button" data-lat="37.736667" data-long="67.515833">Surkhandarya</button>
-                <button class="list__btn" type="button" data-lat="44.7684916"
+                <button onclick="getWeather(37.736667, 67.515833)"class="list__btn" type="button" data-lat="37.736667" data-long="67.515833">Surkhandarya</button>
+                <button onclick="getWeather(44.7684916, 56.19335019)" class="list__btn" type="button" data-lat="44.7684916"
                     data-long="56.1935019">Karakalpakistan</button>
-                <button class="list__btn" type="button" data-lat="40.1331797" data-long="67.8234081">Jizzakh</button>
-                <button class="list__btn" type="button" data-lat="39.6550017" data-long="66.9756954">Samarqand</button>
+                <button onclick="getWeather(40.1331797, 67.8234081)"class="list__btn" type="button" data-lat="40.1331797" data-long="67.8234081">Jizzakh</button>
+                <button onclick="getWeather(39.6550017, 66.9756954)" class="list__btn" type="button" data-lat="39.6550017" data-long="66.9756954">Samarqand</button>
             </li>
             <li class="list">
-                <button class="list__btn" type="button" data-lat="39.7675529" data-long="64.4231326">Bukhara</button>
-                <button class="list__btn" type="button" data-lat="41.5517809" data-long="60.6313161">Khorazm</button>
-                <button class="list__btn" type="button" data-lat="40.1034582" data-long="65.3734221">Navoi</button>
-                <button onclick="" class="list__btn" data-lat="40.7833471" data-lot="72.3506746">Andijan</button>
+                <button onclick="getWeather(39.7675529, 64.4231326)"class="list__btn" type="button" data-lat="39.7675529" data-long="64.4231326">Bukhara</button>
+                <button onclick="getWeather(41.5517809, 60.6313161)" class="list__btn" type="button" data-lat="41.5517809" data-long="60.6313161">Khorazm</button>
+                <button onclick="getWeather(40.1034582, 65.3734221)"class="list__btn" type="button" data-lat="40.1034582" data-long="65.3734221">Navoi</button>
+                <button onclick="getWeather(40.7833471, 72.3506746)" class="list__btn" data-lat="40.7833471" data-lot="72.3506746">Andijan</button>
             </li>
         </ul>
 
